@@ -1,0 +1,80 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    height: 40px;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(51, 219, 88);
+    border-radius: 10px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(242, 235, 225);
+    justify-content: center;
+    text-align: center;
+    margin-left: 3%;
+}
+.book{
+    background-color: #adb3af;
+    display: grid;
+    box-shadow: 0px 4px 4px black;
+}
+.book :hover{
+    box-shadow: 0px 6px 6px black;
+    transition: 0.5s;
+}
+input{
+    border-radius: 8px;
+    width: 400px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+h2{
+    margin-left: 20%;
+    background-color: rgb(95, 98, 107);
+    color: aliceblue;
+    width: 60%;
+    line-height: 60px;
+    border-radius: 10px;
+}
+.submit{
+    background-color: rgb(114, 50, 218);
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 30px;
+    width: 90px;
+    font-weight: bold;
+}
+.form{
+    background-color: aliceblue;
+    padding: 3%;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .form{
+        width: 300px;
+        margin-left: 10%;
+    }
+    input{
+        width: 200px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+
